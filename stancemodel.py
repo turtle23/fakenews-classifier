@@ -237,7 +237,7 @@ f.write('calling model_lstm...')
 model = model_lstm(leftvocabsize ,leftembed_dim ,leftembedding_matrix ,bodymaxlen ,
                rightvocabsize ,rightembed_dim , rightembedding_matrix ,headlinemaxlen)
 history = model.fit([Xtrain_left ,Xtrain_right] ,y_train, batch_size = 100,
-                    epochs = 10 ,validation_split = 0.2,
+                    epochs = 15 ,validation_split = 0.2,
                     callbacks = [EarlyStopping(monitor = 'val_loss' ,min_delta = 0.0001 ,patience =5)])
 
 #save model 
