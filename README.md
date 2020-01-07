@@ -27,6 +27,16 @@ Holistic view of dataset
 |3678	  |840	    |8909     |	36545	    | 49972 |
 |7%	    |1.6%	    |17%	    |73%	      |100%   |
 
+confusion matrix on test data
+
+|   -   |agree | disagree | discuss | unrelated|
+|------ |------|----------| --------|----------|
+| agree|    4 |  1       | 1       |    13    |
+|disagree|1   |3         |  0      |    5      |
+| discuss|2   |0         |7        |3          |
+|unrelated|1  |0         |1        |180        |
+
+Prediction accuracy = 0.7760 and Misclass = 0.2240
 
 
 
