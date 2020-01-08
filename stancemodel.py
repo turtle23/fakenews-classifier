@@ -171,7 +171,7 @@ print(f'percent of null value:' ,percent)
 #df = df.dropna(axis = 0)
 
 #split train and test set
-df_train ,df_test = train_test_split(df , test_size = 0.05 ,random_state = 43)
+df_train ,df_test = train_test_split(df , test_size = 0.005 ,random_state = 43)
 print(f'df_train size = {df_train.shape} , df_test_size = {df_test.shape}')
 f.write('train and test shape' + str(df_train.shape ) +' ' + str(df_test.shape)+ '\n')
 
