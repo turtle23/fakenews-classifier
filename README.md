@@ -29,12 +29,12 @@ Holistic view of dataset
 
 confusion matrix on test data
 
-|   -   |agree | disagree | discuss | unrelated|
+|   -   |Predicted agree |Predicted disagree |Predicted discuss |Predicted unrelated|
 |------ |------|----------| --------|----------|
-| agree|    4 |  1       | 1       |    13    |
-|disagree|1   |3         |  0      |    5      |
-| discuss|2   |0         |7        |3          |
-|unrelated|1  |0         |1        |180        |
+|Actual agree|    4 |  1       | 1       |    13    |
+|Actual disagree|1   |3         |  0      |    5      |
+|Actual discuss|2   |0         |7        |3          |
+|Actual unrelated|1  |0         |1        |180        |
 
 Prediction accuracy = 0.7760 and Misclass = 0.2240
 
